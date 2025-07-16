@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-3/4 max-w-4xl">
+    <h2 class="text-2xl mb-6 text-center font-bold text-gray-800">Gallery</h2>
+    <div class="grid grid-cols-3 gap-4 mb-6" id="smallImages">
+      <img src="image1.jpg" alt="Chameleon" class="w-full h-48 object-cover rounded-lg">
+      <img src="image2.jpg" alt="Tree 1" class="w-full h-48 object-cover rounded-lg">
+      <img src="image3.jpg" alt="Eye" class="w-full h-48 object-cover rounded-lg">
+    </div>
+    <div class="w-full h-96 bg-gray-100 flex items-center justify-center">
+      <img src="image1.jpg" alt="Main Image" class="w-full h-full object-cover rounded-lg" id="mainImage">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
